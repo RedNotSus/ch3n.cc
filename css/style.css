@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&display=swap");
+
+body {
+  background-color: #282c34;
+  font-family: "Fira Code", monospace;
+  margin: 0;
+  padding: 0px;
+  display: flex;
+}
+
+.parent {
+  display: flex;
+  flex-direction: row;
+}
+.buttons {
+  flex: 1;
+  padding-top: 40px;
+  text-align: left;
+  float: right;
+  transition: 0.3s;
+}
+.description {
+  transition: 0.3s;
+  flex: 1;
+  padding-left: 128px;
+  padding-top: 22px;
+  float: left;
+}
+
+.bold {
+  font-family: "Fira Code", monospace;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.name {
+  color: #d6dde9;
+  margin-bottom: 0px;
+  font-size: 36px;
+}
+
+.subtext {
+  color: #7f848e;
+  font-size: 20px;
+  margin-top: 4px;
+}
+.headers {
+  color: #d6deed;
+  font-size: 24px;
+}
+
+.about {
+  color: #abb2bf;
+  font-size: 20px;
+  width: 90%;
+}
+.skills {
+  line-height: 1.4;
+  margin-top: -15px;
+}
+@media (max-width: 1020px) {
+  .parent {
+    flex-direction: column;
+  }
+  .about {
+    width: 95%;
+    transition: 0.3s;
+  }
+  .buttons {
+    padding-left: 35px;
+    padding-top: 16px;
+    transition: 0.3s;
+  }
+  .description {
+    padding-left: 32px;
+    padding-top: 0px;
+    transition: 0.3s;
+  }
+}
+@media (max-width: 1200px) {
+  .buttons {
+    padding-right: 0px;
+    padding-top: 16px;
+    transition: 0.3s;
+  }
+  .description {
+    padding-left: 32px;
+    padding-top: 0px;
+    transition: 0.3s;
+  }
+}
+
+.red {
+  color: #ff5555;
+}
+.purple {
+  color: #bd93f9;
+}
+.green {
+  color: #50fa7b;
+}
+.yellow {
+  color: #f1fa8c;
+}
+.cyan {
+  color: #8be9fd;
+}
+.orange {
+  color: #ffb86c;
+}
+.blue {
+  color: #5555ff;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline salmon;
+}
