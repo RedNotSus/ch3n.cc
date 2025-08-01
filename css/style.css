@@ -3,9 +3,9 @@
 body {
   background-color: #282c34;
   font-family: "Fira Code", monospace;
-  margin: 0;
   padding: 0px;
   display: flex;
+  margin-right: 30px;
 }
 
 .parent {
